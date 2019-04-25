@@ -1,3 +1,5 @@
+// AJ Sijpenhof(1745798)
+
 import java.sql.Date;
 
 public class Reiziger {
