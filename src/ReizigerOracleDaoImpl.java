@@ -12,7 +12,7 @@ public class ReizigerOracleDaoImpl implements ReizigerDao {
         List<Reiziger> res = new ArrayList<Reiziger>();
 
         for (Reiziger rz : reizigers) {
-            if (rz.getGBdatum().equals(Date.valueOf(dt))){
+            if (rz.getGBdatum().equals(Date.valueOf(dt))) {
                 res.add(rz);
             }
         }
@@ -36,7 +36,7 @@ public class ReizigerOracleDaoImpl implements ReizigerDao {
         return res;
     }
 
-    public boolean delete(Reiziger reiziger){
+    public boolean delete(Reiziger reiziger) {
         boolean res = false;
 
         for (Reiziger rz : reizigers) {

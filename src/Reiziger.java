@@ -4,20 +4,20 @@ public class Reiziger {
     private String naam;
     private Date gbdatum;
 
-    public Reiziger(String naam, Date gbdatum){
+    public Reiziger(String naam, Date gbdatum) {
         this.naam = naam;
         this.gbdatum = gbdatum;
     }
 
-    public String getNaam(){
+    public String getNaam() {
         return naam;
     }
 
-    public void setNaam(String nm){
+    public void setNaam(String nm) {
         this.naam = nm;
     }
 
-    public Date getGBdatum(){
+    public Date getGBdatum() {
         return gbdatum;
     }
 
